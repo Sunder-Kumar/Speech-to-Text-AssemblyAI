@@ -1,17 +1,16 @@
 import os
 from flask import Flask, request, jsonify
 import requests
-from dotenv import load_dotenv
 import spacy
+import streamlit as st
 
-load_dotenv()
-
-app = Flask(__name__)
-
-ASSEMBLYAI_API_KEY = os.getenv("ASSEMBLYAI_API_KEY")
+# Access the API key securely using Streamlit secrets
+ASSEMBLYAI_API_KEY = st.secrets["general"]["ASSEMBLYAI_API_KEY"]
 HEADERS = {"authorization": ASSEMBLYAI_API_KEY}
 
 nlp = spacy.load("en_core_web_sm")
+
+app = Flask(__name__)
 
 def upload_audio(file_path):
     with open(file_path, "rb") as f:
@@ -82,4 +81,4 @@ def transcription(transcript_id):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0", port=5000)
