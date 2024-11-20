@@ -1,6 +1,0 @@
-gtts
-flask
-spacy
-requests
-streamlit
-python-dotenv
