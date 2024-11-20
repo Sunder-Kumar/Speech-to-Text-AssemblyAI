@@ -13,7 +13,7 @@ This project demonstrates the capabilities of **Universal-2**, AssemblyAI’s la
 ---
 
 ## Screenshots
-![App Screenshot 1]("https://drive.google.com/file/d/1uJo-Gn2Jzk4-oCBe1efDM_bfhoNpsCNF/view?usp=sharing")
+![App Screenshot 1](https://drive.google.com/file/d/1uJo-Gn2Jzk4-oCBe1efDM_bfhoNpsCNF/view?usp=sharing)
 ![App Screenshot 2]("https://drive.google.com/file/d/1uJo-Gn2Jzk4-oCBe1efDM_bfhoNpsCNF/view?usp=sharing")
 
 ---
