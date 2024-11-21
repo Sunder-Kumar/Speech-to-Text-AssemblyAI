@@ -4,3 +4,8 @@ streamlit==1.14.0
 gtts==2.5.4
 spacy==3.2.0
 python-dotenv==0.19.2
+streamlit
+requests
+assemblyai
+pandas==1.5.3
+numpy==1.25.0
