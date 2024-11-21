@@ -1,3 +1,5 @@
 libsndfile1
 libmagic1
 ffmpeg
+build-essential
+python3-dev
