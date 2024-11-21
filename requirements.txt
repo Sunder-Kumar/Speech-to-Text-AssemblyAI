@@ -9,3 +9,5 @@ requests
 assemblyai
 pandas==1.5.3
 numpy==1.25.0
+thinc==8.1.7
+spacy==3.5.3
